@@ -1,0 +1,25 @@
+{
+  "name": {
+    "title": "mr",
+    "first": "carter",
+    "last": "hamilton"
+  },
+  "location": {
+    "street": "3287 london road",
+    "city": "liverpool",
+    "state": "cornwall",
+    "postcode": "Y74 8JQ",
+    "coordinates": {
+      "latitude": "14.1495",
+      "longitude": "-77.4964"
+    },
+    "timezone": {
+      "offset": "0:00",
+      "description": "Western Europe Time, London, Lisbon, Casablanca"
+    }
+  },
+  "email": "carter.hamilton@example.com",
+  "phone": "0101 234 7685",
+  "cell": "0704-110-445"
+}
+

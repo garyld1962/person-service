@@ -1,0 +1,24 @@
+{
+    "name": {
+        "title": "ms",
+        "first": "mali",
+        "last": "nysæter"
+    },
+    "location": {
+        "street": "olaus fjørtofts vei 352",
+        "city": "momoen",
+        "state": "hordaland",
+        "postcode": "0488",
+        "coordinates": {
+            "latitude": "55.2434",
+            "longitude": "107.4359"
+        },
+        "timezone": {
+            "offset": "-12:00",
+            "description": "Eniwetok, Kwajalein"
+        }
+    },
+    "email": "mali.nysæter@example.com",
+    "phone": "53837045",
+    "cell": "94918114"
+}

@@ -1,0 +1,322 @@
+openapi: 3.0.1
+info:
+  title: dev-person-service
+  description: The person service
+  version: "2.0.0"
+servers:
+  - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'
+paths:
+  /dev/person:
+    put:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                phone:
+                  type: string
+                name:
+                  type: object
+                  properties:
+                    last:
+                      type: string
+                    title:
+                      type: string
+                    first:
+                      type: string
+                location:
+                  type: object
+                  properties:
+                    city:
+                      type: string
+                    street:
+                      type: string
+                    timezone:
+                      type: object
+                      properties:
+                        offset:
+                          type: string
+                        description:
+                          type: string
+                    postcode:
+                      type: integer
+                    coordinates:
+                      type: object
+                      properties:
+                        latitude:
+                          type: string
+                        longitude:
+                          type: string
+                    state:
+                      type: string
+                cell:
+                  type: string
+                email:
+                  type: string
+            examples:
+              '0':
+                value: "{\r\n  \"name\": {\r\n    \"title\": \"mrs\",\r\n    \"first\": \"amandine\",\r\n    \"last\": \"lambert\"\r\n  },\r\n  \"location\": {\r\n    \"street\": \"173 rue de cuire\",\r\n    \"city\": \"boulogne-billancourt\",\r\n    \"state\": \"haute-corse\",\r\n    \"postcode\": 50946,\r\n    \"coordinates\": {\r\n      \"latitude\": \"-0.9134\",\r\n      \"longitude\": \"175.0779\"\r\n    },\r\n    \"timezone\": {\r\n      \"offset\": \"-3:00\",\r\n      \"description\": \"Brazil, Buenos Aires, Georgetown\"\r\n    }\r\n  },\r\n  \"email\": \"amandine.lambert@example.com\",\r\n  \"phone\": \"03-60-03-85-50\",\r\n  \"cell\": \"06-91-15-85-89\"\r\n}\r\n"
+              '1':
+                value: "{\r\n  \"name\": {\r\n    \"title\": \"mrs\",\r\n    \"first\": \"amandine\",\r\n    \"last\": \"lambert\"\r\n  },\r\n  \"location\": {\r\n    \"street\": \"173 rue de cuire\",\r\n    \"city\": \"boulogne-billancourt\",\r\n    \"state\": \"haute-corse\",\r\n    \"postcode\": 50946,\r\n    \"coordinates\": {\r\n      \"latitude\": \"-0.9134\",\r\n      \"longitude\": \"175.0779\"\r\n    },\r\n    \"timezone\": {\r\n      \"offset\": \"-3:00\",\r\n      \"description\": \"Brazil, Buenos Aires, Georgetown\"\r\n    }\r\n  },\r\n  \"email\": \"amandine.lambert@example.com\",\r\n  \"phone\": \"03-60-03-85-50\",\r\n  \"cell\": \"06-91-15-85-89\"\r\n}\r\n"
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+              examples:
+                '0':
+                  value: '{"message":"The user was sucessfully added "}'
+      servers:
+        - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'
+    post:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                phone:
+                  type: string
+                name:
+                  type: object
+                  properties:
+                    last:
+                      type: string
+                    title:
+                      type: string
+                    first:
+                      type: string
+                location:
+                  type: object
+                  properties:
+                    city:
+                      type: string
+                    street:
+                      type: string
+                    timezone:
+                      type: object
+                      properties:
+                        offset:
+                          type: string
+                        description:
+                          type: string
+                    postcode:
+                      type: integer
+                    coordinates:
+                      type: object
+                      properties:
+                        latitude:
+                          type: string
+                        longitude:
+                          type: string
+                    state:
+                      type: string
+                cell:
+                  type: string
+                email:
+                  type: string
+            examples:
+              '0':
+                value: "{\r\n  \"name\": {\r\n    \"title\": \"mrs\",\r\n    \"first\": \"amandine\",\r\n    \"last\": \"lambert\"\r\n  },\r\n  \"location\": {\r\n    \"street\": \"173 rue de cuire\",\r\n    \"city\": \"boulogne-billancourt\",\r\n    \"state\": \"haute-corse\",\r\n    \"postcode\": 50946,\r\n    \"coordinates\": {\r\n      \"latitude\": \"-0.9134\",\r\n      \"longitude\": \"175.0779\"\r\n    },\r\n    \"timezone\": {\r\n      \"offset\": \"-3:00\",\r\n      \"description\": \"Brazil, Buenos Aires, Georgetown\"\r\n    }\r\n  },\r\n  \"email\": \"amandine.lambert@example.com\",\r\n  \"phone\": \"03-60-03-85-50\",\r\n  \"cell\": \"06-91-15-85-89\"\r\n}\r\n"
+              '1':
+                value: "{\r\n  \"name\": {\r\n    \"title\": \"mrs\",\r\n    \"first\": \"amandine\",\r\n    \"last\": \"lambert\"\r\n  },\r\n  \"location\": {\r\n    \"street\": \"173 rue de cuire\",\r\n    \"city\": \"boulogne-billancourt\",\r\n    \"state\": \"haute-corse\",\r\n    \"postcode\": 50946,\r\n    \"coordinates\": {\r\n      \"latitude\": \"-0.9134\",\r\n      \"longitude\": \"175.0779\"\r\n    },\r\n    \"timezone\": {\r\n      \"offset\": \"-3:00\",\r\n      \"description\": \"Brazil, Buenos Aires, Georgetown\"\r\n    }\r\n  },\r\n  \"email\": \"amandine.lambert@example.com\",\r\n  \"phone\": \"03-60-03-85-50\",\r\n  \"cell\": \"06-91-15-85-89\"\r\n}\r\n"
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+              examples:
+                '0':
+                  value: '{"message":"The user was sucessfully added "}'
+      servers:
+        - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'
+  /dev/person/{id}:
+    get:
+      description: Auto generated using Swagger Inspector
+      parameters:
+      - name: id
+        in: path
+        description: The person's email address
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  item:
+                    type: object
+                    properties:
+                      phone:
+                        type: string
+                      name:
+                        type: object
+                        properties:
+                          last:
+                            type: string
+                          title:
+                            type: string
+                          first:
+                            type: string
+                      location:
+                        type: object
+                        properties:
+                          city:
+                            type: string
+                          street:
+                            type: string
+                          timezone:
+                            type: object
+                            properties:
+                              offset:
+                                type: string
+                              description:
+                                type: string
+                          postcode:
+                            type: integer
+                          coordinates:
+                            type: object
+                            properties:
+                              latitude:
+                                type: string
+                              longitude:
+                                type: string
+                          state:
+                            type: string
+                      cell:
+                        type: string
+                      email:
+                        type: string
+                  message:
+                    type: string
+              examples:
+                '0':
+                  value: >-
+                    {"message":"The user requested is
+                    ","item":{"location":{"postcode":257,"coordinates":{"latitude":"-89.4155","longitude":"64.8578"},"state":"australian
+                    capital territory","city":"cairns","street":"4513 pecan
+                    acres
+                    ln","timezone":{"offset":"+5:45","description":"Kathmandu"}},"email":"vicki.griffin@example.com","name":{"last":"griffin","title":"miss","first":"vicki"},"phone":"00-3341-5385","cell":"0474-349-348"}}
+      servers:
+        - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'
+    delete:
+      description: Auto generated using Swagger Inspector
+      parameters:
+      - name: id
+        in: path
+        description: The person's email address
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+              examples:
+                '0':
+                  value: '{"message":"The user was deleted "}'
+      servers:
+        - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'
+    servers:
+      - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'
+  /dev/persons/:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  item:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        phone:
+                          type: string
+                        name:
+                          type: object
+                          properties:
+                            last:
+                              type: string
+                            title:
+                              type: string
+                            first:
+                              type: string
+                        location:
+                          type: object
+                          properties:
+                            city:
+                              type: string
+                            street:
+                              type: string
+                            timezone:
+                              type: object
+                              properties:
+                                offset:
+                                  type: string
+                                description:
+                                  type: string
+                            postcode:
+                              type: string
+                            coordinates:
+                              type: object
+                              properties:
+                                latitude:
+                                  type: string
+                                longitude:
+                                  type: string
+                            state:
+                              type: string
+                        cell:
+                          type: string
+                        email:
+                          type: string
+                  message:
+                    type: string
+              examples:
+                '0':
+                  value: >-
+                    {"message":"The user requested is
+                    ","item":[{"location":{"postcode":"Y74
+                    8JQ","coordinates":{"latitude":"14.1495","longitude":"-77.4964"},"state":"cornwall","city":"liverpool","street":"3287
+                    london
+                    road","timezone":{"offset":"0:00","description":"Western
+                    Europe Time, London, Lisbon,
+                    Casablanca"}},"email":"carter.hamilton@example.com","name":{"title":"mr","last":"hamilton","first":"carter"},"phone":"0101
+                    234
+                    7685","cell":"0704-110-445"},{"location":{"postcode":50946,"coordinates":{"latitude":"-0.9134","longitude":"175.0779"},"state":"haute-corse","city":"boulogne-billancourt","street":"173
+                    rue de
+                    cuire","timezone":{"offset":"-3:00","description":"Brazil,
+                    Buenos Aires,
+                    Georgetown"}},"email":"amandine.lambert@example.com","name":{"title":"mrs","last":"lambert","first":"amandine"},"phone":"03-60-03-85-50","cell":"06-91-15-85-89"}]}
+      servers:
+        - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'
+    servers:
+      - url: 'https://22w47dfnge.execute-api.us-east-1.amazonaws.com'    

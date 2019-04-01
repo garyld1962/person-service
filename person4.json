@@ -1,0 +1,24 @@
+{
+  "name": {
+    "title": "mr",
+    "first": "jan",
+    "last": "bartz"
+  },
+  "location": {
+    "street": "raiffeisenstraße 3",
+    "city": "heimsheim",
+    "state": "hessen",
+    "postcode": 44708,
+    "coordinates": {
+      "latitude": "-44.3608",
+      "longitude": "-55.6153"
+    },
+    "timezone": {
+      "offset": "-6:00",
+      "description": "Central Time (US & Canada), Mexico City"
+    }
+  },
+  "email": "jan.bartz@example.com",
+  "phone": "0216-0321841",
+  "cell": "0179-9399731"
+}

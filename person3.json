@@ -1,0 +1,24 @@
+{
+  "name": {
+    "title": "miss",
+    "first": "emma",
+    "last": "anderson"
+  },
+  "location": {
+    "street": "7771 alexander road",
+    "city": "laytown-bettystown-mornington",
+    "state": "cork city",
+    "postcode": 93250,
+    "coordinates": {
+      "latitude": "20.8900",
+      "longitude": "19.4428"
+    },
+    "timezone": {
+      "offset": "+2:00",
+      "description": "Kaliningrad, South Africa"
+    }
+  },
+  "email": "emma.anderson@example.com",
+  "phone": "041-272-0356",
+  "cell": "081-862-2438"
+}

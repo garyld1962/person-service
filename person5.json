@@ -1,0 +1,24 @@
+{
+  "name": {
+    "title": "mademoiselle",
+    "first": "daria",
+    "last": "faure"
+  },
+  "location": {
+    "street": "8575 rue de gerland",
+    "city": "twann-tüscherz",
+    "state": "basel-landschaft",
+    "postcode": 5887,
+    "coordinates": {
+      "latitude": "-54.2442",
+      "longitude": "146.0227"
+    },
+    "timezone": {
+      "offset": "-3:30",
+      "description": "Newfoundland"
+    }
+  },
+  "email": "daria.faure@example.com",
+  "phone": "(134)-550-6927",
+  "cell": "(719)-585-5435"
+}
